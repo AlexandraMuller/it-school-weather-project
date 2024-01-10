@@ -4,7 +4,7 @@ The JS project from my web development course @ IT School
 
 ## Demo
 
-The project is deployed here: itschool-weather-project-am.netlify.app
+The project is deployed here: https://itschool-weather-project-am.netlify.app
 
 ## Main features
 
