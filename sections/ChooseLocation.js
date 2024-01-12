@@ -42,7 +42,7 @@ sibiu.addEventListener("click", function () {
   updateWeather("Sibiu");
 });
 cluj.addEventListener("click", function () {
-  updateWeather("Cluj");
+  updateWeather("Cluj-Napoca");
 });
 craiova.addEventListener("click", function () {
   updateWeather("Craiova");
