@@ -3,11 +3,8 @@
 The JS project from my web development course @ IT School. Weather Companion is a weather application that shows the current weather and a 5-day forecast for the selected city.
 
 ## Technologies Used
+ HTML, CSS, BOOTSTRAP, JAVASCRIPT
 
--HTML
--CSS
--Bootstrap
--JavaScript
 
 ## Demo
 
