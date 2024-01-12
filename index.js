@@ -63,7 +63,7 @@ document.addEventListener("scroll", function () {
   }
 });
 
-document.addEventListener("click", function () {
+scrollToTopButton.addEventListener("click", function () {
   window.scrollTo({
     top: 727,
     left: 100,
