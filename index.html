@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vremea IT School</title>
+    <title>Weather Companion</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -24,9 +24,15 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header class="bg-primary d-flex justify-content-center align-items-center">
+    <div class="bg-image-sky">
+      <div class="start-text"></div>
+      <div class="description-start-text"></div>
+    </div>
+    <header
+      class="bg-primary d-flex justify-content-center align-items-center bg-image"
+    >
       <div class="container">
-        <h1 class="text-white text-center">Vremea IT School</h1>
+        <h1 class="text-primary text-center">Weather Companion</h1>
       </div>
     </header>
     <main>
@@ -38,9 +44,13 @@
         <div class="container">
           <h2 class="text-primary text-center mb-5">Alege-ți locația</h2>
           <p class="text-center fs-6">
-            Te pregătești să mergi la curs și vrei să vezi cu ce să te îmbraci?
-            Îți venim în ajutor! Alege mai jos una dintre locațiile IT School și
-            apoi scrollează pentru a vedea vremea din orașul tău.
+            Ai o întâlnire și nu știi cum să te îmbraci? Sau mergi cu gașca
+            într-o mini-vacanță prin țară și nu știi ce să pui în bagaj? Sau
+            poate vrei doar să mergi cu câinele la o plimbare dar nu știi dacă
+            să iei geaca sau umbrela…Weather Companion îți vine în ajutor! Alege
+            de mai jos orașul care te interesează și poți să vezi vremea
+            curentă, apoi scrollează pentru a vedea vremea și pentru următoarele
+            5 zile.
           </p>
           <p class="text-center fs-5">
             Orașul tău curent este
@@ -66,6 +76,24 @@
               <li><button class="dropdown-item oradea">Oradea</button></li>
               <li><button class="dropdown-item arad">Arad</button></li>
               <li><button class="dropdown-item sibiu">Sibiu</button></li>
+              <li><button class="dropdown-item cluj">Cluj-Napoca</button></li>
+              <li><button class="dropdown-item craiova">Craiova</button></li>
+              <li><button class="dropdown-item brasov">Brașov</button></li>
+              <li>
+                <button class="dropdown-item constanta">Constanța</button>
+              </li>
+              <li>
+                <button class="dropdown-item piatra-neamt">Piatra Neamț</button>
+              </li>
+              <li>
+                <button class="dropdown-item satu-mare">Satu Mare</button>
+              </li>
+              <li><button class="dropdown-item deva">Deva</button></li>
+              <li>
+                <button class="dropdown-item targu-jiu">Târgu Jiu</button>
+              </li>
+              <li><button class="dropdown-item iasi">Iași</button></li>
+              <li><button class="dropdown-item suceava">Suceava</button></li>
             </ul>
           </div>
         </div>
@@ -88,7 +116,7 @@
     <footer class="bg-dark">
       <div class="container">
         <p class="text-light text-center m-0 py-3">
-          IT School România © 2021. Toate drepturile rezervate.
+          IT School România © 2024. Toate drepturile rezervate.
         </p>
       </div>
     </footer>
